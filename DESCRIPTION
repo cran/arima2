@@ -1,6 +1,6 @@
 Package: arima2
 Title: Likelihood Based Inference for ARIMA Modeling
-Version: 3.0.1
+Version: 3.1.0
 Authors@R: 
     c(
     person("Jesse", 
@@ -46,7 +46,7 @@ Depends: R (>= 3.5)
 LazyData: true
 BugReports: https://github.com/jeswheel/arima2/issues/
 NeedsCompilation: yes
-Packaged: 2023-10-03 14:28:34 UTC; jesse
+Packaged: 2023-11-16 14:53:21 UTC; jeswheel
 Author: Jesse Wheeler [aut, cre, cph],
   Noel McAllister [aut],
   Dhajanae Sylvertooth [aut],
@@ -55,4 +55,4 @@ Author: Jesse Wheeler [aut, cre, cph],
   R Core Team [cph] (Author of arima source code in stats package.)
 Maintainer: Jesse Wheeler <jeswheel@umich.edu>
 Repository: CRAN
-Date/Publication: 2023-10-05 08:10:03 UTC
+Date/Publication: 2023-11-16 16:03:54 UTC
