@@ -1,3 +1,19 @@
+# arima2 3.3.0
+
+* Updated root sampling scheme. Previously, if $n$ roots were sampled, floor($n/2$) roots were sampled as conjugate pairs, and if $n$ is even the remaining root was sampled as a real number. This scheme did not allow the ability to sample any real roots (other than the final odd root), leading to the inability of sampling positive evenly numbered AR components. 
+The updated root sampling scheme is the same, but allows for this possibility by randomly choosing some paired roots to be real rather than complex. 
+The rate at which real roots are sampled is selected so that, roughly, the marginal probability that any AR/MA coefficient is positive is $0.5$. 
+
+# arima2 3.2.1
+
+* Fixed minor bug in `arima.R` function that occured when `include.mean = TRUE` and some parameters are already fixed.
+
+# arima2 3.2.0
+
+* Fixed minor spelling errors in documentation.
+* Refactored `sample_ARMA_coef.R`. The new function is faster than the original, includes the capability to manually set the minimum acceptable distance between inverted roots, and is easier to read. 
+* Package tests have been updated with the new version of the `sample_ARMA_coef.R` function. 
+
 # arima2 3.1.0
 
 * Fixed bug with plotting models with only MA or only AR coefficients. 

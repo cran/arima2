@@ -1,6 +1,6 @@
 Package: arima2
 Title: Likelihood Based Inference for ARIMA Modeling
-Version: 3.1.0
+Version: 3.3.0
 Authors@R: 
     c(
     person("Jesse", 
@@ -35,10 +35,10 @@ Description: Estimating and analyzing auto regressive integrated moving average
     necessary condition for performing likelihood ratio tests. This package 
     relies heavily on the source code of the arima() function of the 'stats' 
     package. For more information, please see Jesse Wheeler and Edward L. 
-    Ionides (2023) <arXiv:2310.01198>.
+    Ionides (2023) <doi:10.48550/arXiv.2310.01198>.
 License: GPL (>= 3)
 Encoding: UTF-8
-RoxygenNote: 7.2.3
+RoxygenNote: 7.3.2
 Suggests: testthat (>= 3.0.0)
 Config/testthat/edition: 3
 Imports: ggplot2, methods
@@ -46,7 +46,7 @@ Depends: R (>= 3.5)
 LazyData: true
 BugReports: https://github.com/jeswheel/arima2/issues/
 NeedsCompilation: yes
-Packaged: 2023-11-16 14:53:21 UTC; jeswheel
+Packaged: 2024-08-19 13:34:47 UTC; jeswheel
 Author: Jesse Wheeler [aut, cre, cph],
   Noel McAllister [aut],
   Dhajanae Sylvertooth [aut],
@@ -55,4 +55,4 @@ Author: Jesse Wheeler [aut, cre, cph],
   R Core Team [cph] (Author of arima source code in stats package.)
 Maintainer: Jesse Wheeler <jeswheel@umich.edu>
 Repository: CRAN
-Date/Publication: 2023-11-16 16:03:54 UTC
+Date/Publication: 2024-08-19 14:20:02 UTC
