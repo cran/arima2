@@ -8,6 +8,9 @@
 [![R-CMD-check](https://github.com/jeswheel/arima2/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/jeswheel/arima2/actions/workflows/R-CMD-check.yaml)
 [![CRAN
 status](https://www.r-pkg.org/badges/version/arima2)](https://CRAN.R-project.org/package=arima2)
+[![Research
+Article](https://img.shields.io/badge/Research%20Article-PDF-blue)](https://doi.org/10.1371/journal.pone.0333993)
+<!-- [![DOI](https://zenodo.org/badge/564488394.svg)](https://doi.org/10.5281/zenodo.17203987) -->
 <!-- badges: end -->
 
 The goal of `arima2` is to provide a set of tools to aid in the analysis
@@ -86,7 +89,7 @@ function will return the AR or MA polynomial roots of the fitted model:
 
 ``` r
 ARMApolyroots(arma2, type = 'AR')
-#> [1]  1.206337+2.524355e-29i 52.741787-2.524355e-29i
+#> [1]  1.206337+0i 52.741787+0i
 ARMApolyroots(arma2, type = 'MA')
 #> [1] 1.171567+0.4408999i 1.171567-0.4408999i
 ```
@@ -129,9 +132,9 @@ tab_results |> knitr::kable()
 |:----|---------:|---------:|---------:|---------:|---------:|
 | AR0 | 278.5279 | 251.2556 | 251.1541 | 252.7329 | 247.8627 |
 | AR1 | 252.4657 | 251.2814 | 248.2125 | 250.2045 | 249.8406 |
-| AR2 | 252.6433 | 251.2406 | 250.2017 | 242.1825 | 251.6792 |
-| AR3 | 251.2595 | 253.2591 | 251.3298 | 251.2216 | 242.7132 |
-| AR4 | 253.2583 | 248.2554 | 249.8175 | 250.8627 | 248.6465 |
+| AR2 | 252.6433 | 251.2406 | 250.2017 | 245.6773 | 251.2409 |
+| AR3 | 251.2595 | 253.2591 | 251.3298 | 251.2216 | 250.2504 |
+| AR4 | 253.2583 | 248.2554 | 249.8175 | 252.3539 | 248.6465 |
 
 ``` r
 
@@ -142,5 +145,9 @@ print(paste0("p = ", P, "; q = ", Q))
 #> [1] "p = 2; q = 3"
 ```
 
-For more details about this package, please see our arXiv paper:
-[arXiv:2310.01198](https://doi.org/10.48550/arXiv.2310.01198)
+For more details about this package, please see our published article:
+
+Wheeler J, Ionides EL (2025). “Revisiting inference for ARMA models:
+Improved fits and superior confidence intervals.” *PLOS ONE*, *20*(10),
+1-19.
+[10.1371/journal.pone.0333993](https://doi.org/10.1371/journal.pone.0333993).
