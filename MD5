@@ -1,6 +1,6 @@
-69564591a2b8d5a8d15f5c2b992f8778 *DESCRIPTION
+25dcd7bdc588e93925e2afc1c8cd9fb9 *DESCRIPTION
 ba26a4b0c59b20674a1c6befaacdd981 *NAMESPACE
-a9084a3c2d97b5d65e26ad4a7ed4e22c *NEWS.md
+33c9f6459d33b4932725ef9fe29a0f5b *NEWS.md
 01ebea272a31335a8488a77756797979 *R/ARMApolyroots.R
 2d593b82021f84f333aeb66d75709f38 *R/aicTable.R
 e5da3482f0aeb25982beb6781474bf85 *R/arima.R
@@ -9,14 +9,14 @@ bf229af6a8b2d1f64ab9617832619930 *R/arima2-package.R
 76fcaac580cb4514212e3f82366a8d5e *R/plot.R
 6012158b21ece8bebd28002927c6e6b6 *R/profile.R
 ee8756201b3bfc4a04f53ba246356364 *R/sample_ARMA_coef.R
-370d6a97e1cc347a0d82b5a81148c3cc *README.md
+927ae4b774bd5ac8f6a05e788a7d2045 *README.md
 bf794ef0c4c790e613e5ac969e902289 *data/miHuron_level.rda
 6a79c8d015a2377053041051caf57ebc *inst/CITATION
 a90f03d666956d2561b25400de2bcb28 *man/ARMApolyroots.Rd
 4898112376e6d165cee8cb5b91e7801a *man/aicTable.Rd
 542f145d1f8017afca46dd2ad3b7fe9a *man/arima.Rd
-b786475f3153db36a093be8c11ce7633 *man/figures/README-PlotARMAresults-1.png
-2d4eb51d93c7d31101a802d3c6754acd *man/figures/README-PlotARMAresults-2.png
+f5e40fa5207664e3f49b3ca0ad874828 *man/figures/README-PlotARMAresults-1.png
+fe7b0c297ca5044a81e476b43bdb7476 *man/figures/README-PlotARMAresults-2.png
 a72f3a51baa1a74b4b01715dc729b811 *man/miHuron_level.Rd
 107a245ea57a513367cfb60b5089d63b *man/plot.Arima2.Rd
 7e6f421aeb4a7bdb238dcaea38bf2fd8 *man/profile.Arima2.Rd
