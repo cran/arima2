@@ -1,13 +1,13 @@
 Package: arima2
 Title: Likelihood Based Inference for ARIMA Modeling
-Version: 3.4.3
-Date: 2025-12-10
+Version: 3.4.4
+Date: 2026-07-07
 Authors@R: 
     c(
     person("Jesse", 
            "Wheeler", 
            role = c("aut", "cre", "cph"),
-           email = "jessewheeler@isu.edu"),
+           email = "jesse.wheeler@usu.edu"),
     person("Noel", 
            "McAllister", 
            role = "aut",
@@ -39,21 +39,21 @@ Description: Estimating and analyzing auto regressive integrated moving average
     Ionides (2025) <doi:10.1371/journal.pone.0333993>.
 License: GPL (>= 3)
 Encoding: UTF-8
-RoxygenNote: 7.3.3
 Suggests: testthat (>= 3.0.0)
 Config/testthat/edition: 3
 Imports: ggplot2, methods
 Depends: R (>= 4.1.0)
 LazyData: true
 BugReports: https://github.com/jeswheel/arima2/issues/
+Config/roxygen2/version: 8.0.0
 NeedsCompilation: yes
-Packaged: 2025-12-10 18:45:39 UTC; jessewheeler
+Packaged: 2026-07-07 18:06:20 UTC; jessewheeler
 Author: Jesse Wheeler [aut, cre, cph],
   Noel McAllister [aut],
   Dhajanae Sylvertooth [aut],
   Edward Ionides [ctb],
   Brian Ripley [ctb] (Author of arima source code in stats package.),
   R Core Team [cph] (Author of arima source code in stats package.)
-Maintainer: Jesse Wheeler <jessewheeler@isu.edu>
+Maintainer: Jesse Wheeler <jesse.wheeler@usu.edu>
 Repository: CRAN
-Date/Publication: 2025-12-10 19:00:02 UTC
+Date/Publication: 2026-07-07 19:40:28 UTC
